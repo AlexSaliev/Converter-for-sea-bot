@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 import pandas as pd
-
+# подключаем gui библиотеку  tkinter  и настраеваем ее
 root= tk.Tk()
 root.title('Конвертер для Никиты')
 canvas1 = tk.Canvas(root, width = 500, height = 300, bg = 'lightsteelblue2', relief = 'raised')
